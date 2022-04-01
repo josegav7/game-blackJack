@@ -1,0 +1,605 @@
+
+***********************
+Starting Test #0: Test A: Dealer Should win with larger hand (20)
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Two of Spades(2),  } 2 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Two of Hearts(2), Two of Spades(2),  } 4 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2),  } 6 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2),  } 6 points
+
+Dealer's turn...
+Dealer's Hand: { Six of Spades(6),  } 6 points
+Player's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2),  } 6 points
+
+Dealer's turn...
+Dealer's Hand: { Six of Hearts(6), Six of Spades(6),  } 12 points
+Player's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2),  } 6 points
+
+Dealer's turn...
+Dealer's Hand: { Eight of Diamonds(8), Six of Hearts(6), Six of Spades(6),  } 20 points
+Player's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2),  } 6 points
+
+Congratulations: Dealer has won the game!
+Goodbye!
+Passed test #0
+
+***********************
+Starting Test #1: Test B : Player should win with larger hand (19)
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { King of Spades(10),  } 10 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Nine of Clubs(9), King of Spades(10),  } 19 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Ace of Hearts(1),  } 1 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Ace of Clubs(1), Ace of Hearts(1),  } 2 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 4 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 6 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 8 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 10 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 13 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 16 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Diamonds(3), Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 19 points
+Player's Hand: { Ace of Diamonds(1), Nine of Clubs(9), King of Spades(10),  } 20 points
+
+Congratulations: Player has won the game!
+Goodbye!
+Passed test #1
+
+***********************
+Starting Test #2: Test C:  Player Should win with 21
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { King of Spades(10),  } 10 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { King of Spades(10), King of Spades(10),  } 20 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Ace of Hearts(1),  } 1 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Ace of Clubs(1), Ace of Hearts(1),  } 2 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 4 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 6 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 8 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 10 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 13 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 16 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Diamonds(3), Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 19 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), King of Spades(10),  } 21 points
+
+Congratulations: Player has won the game!
+Goodbye!
+Passed test #2
+
+***********************
+Starting Test #3: Test D:  Player Should win with 20
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Eight of Spades(8),  } 8 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Eight of Hearts(8), Eight of Spades(8),  } 16 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Ace of Hearts(1),  } 1 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Ace of Clubs(1), Ace of Hearts(1),  } 2 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 4 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 6 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 8 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 10 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 13 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 16 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Diamonds(3), Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1), Ace of Hearts(1),  } 19 points
+Player's Hand: { Four of Hearts(4), Eight of Hearts(8), Eight of Spades(8),  } 20 points
+
+Congratulations: Player has won the game!
+Goodbye!
+Passed test #3
+
+***********************
+Starting Test #4: Test E: Dealer Should Win (Player Busts)
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ten of Hearts(10),  } 10 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Eight of Hearts(8), Ten of Hearts(10),  } 18 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Congratulations: Dealer has won the game!
+Goodbye!
+Passed test #4
+
+***********************
+Starting Test #5: Test F: Player Wins (Dealer Busts)
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Spades(4),  } 4 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Two of Diamonds(2), Four of Spades(4),  } 6 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Spades(3),  } 3 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Dealer's turn...
+Dealer's Hand: { Ten of Spades(10), Three of Spades(3),  } 13 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Dealer's turn...
+Dealer's Hand: { Jack of Clubs(10), Ten of Spades(10), Three of Spades(3),  } 23 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Congratulations: Player has won the game!
+Goodbye!
+Passed test #5
+
+***********************
+Starting Test #6: Test G: Player Wins (Dealer Busts)
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Spades(4),  } 4 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Two of Diamonds(2), Four of Spades(4),  } 6 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Spades(3),  } 3 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Dealer's turn...
+Dealer's Hand: { Ten of Spades(10), Three of Spades(3),  } 13 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Dealer's turn...
+Dealer's Hand: { Jack of Clubs(10), Ten of Spades(10), Three of Spades(3),  } 23 points
+Player's Hand: { Ace of Hearts(1), Two of Diamonds(2), Four of Spades(4),  } 7 points
+
+Congratulations: Player has won the game!
+Goodbye!
+Passed test #6
+
+***********************
+Starting Test #7: Test H: Player Win's with 21
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Queen of Spades(10),  } 10 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { King of Spades(10), Queen of Spades(10),  } 20 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), Queen of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Queen of Clubs(10),  } 10 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), Queen of Spades(10),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { King of Hearts(10), Queen of Clubs(10),  } 20 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10), Queen of Spades(10),  } 21 points
+
+Congratulations: Player has won the game!
+Goodbye!
+Passed test #7
+
+***********************
+Starting Test #8: Test I: Test Player Points - should be 14
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Five of Spades(5),  } 5 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Five of Hearts(5), Five of Spades(5),  } 10 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Dealer's turn...
+Dealer's Hand: { Queen of Clubs(10),  } 10 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Dealer's turn...
+Dealer's Hand: { King of Hearts(10), Queen of Clubs(10),  } 20 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Congratulations: Dealer has won the game!
+Goodbye!
+Passed test #8
+
+***********************
+Starting Test #9: Test J: Test Dealer Points - should be 17 (dealer stands on > 16)
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Five of Spades(5),  } 5 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Five of Hearts(5), Five of Spades(5),  } 10 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Dealer's turn...
+Dealer's Hand: { Six of Spades(6),  } 6 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Dealer's turn...
+Dealer's Hand: { Six of Hearts(6), Six of Spades(6),  } 12 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Dealer's turn...
+Dealer's Hand: { Five of Clubs(5), Six of Hearts(6), Six of Spades(6),  } 17 points
+Player's Hand: { Four of Diamonds(4), Five of Hearts(5), Five of Spades(5),  } 14 points
+
+Congratulations: Dealer has won the game!
+Goodbye!
+Passed test #9
+
+***********************
+Starting Test #10: Test K (WIP): Dealer wins on tie with player at 21 (dealer stands on > 16)
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Seven of Spades(7),  } 7 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Seven of Hearts(7), Seven of Spades(7),  } 14 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Seven of Diamonds(7), Seven of Hearts(7), Seven of Spades(7),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Six of Clubs(6),  } 6 points
+Player's Hand: { Seven of Diamonds(7), Seven of Hearts(7), Seven of Spades(7),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Seven of Clubs(7), Six of Clubs(6),  } 13 points
+Player's Hand: { Seven of Diamonds(7), Seven of Hearts(7), Seven of Spades(7),  } 21 points
+
+Dealer's turn...
+Dealer's Hand: { Eight of Clubs(8), Seven of Clubs(7), Six of Clubs(6),  } 21 points
+Player's Hand: { Seven of Diamonds(7), Seven of Hearts(7), Seven of Spades(7),  } 21 points
+
+Congratulations: Dealer has won the game!
+Goodbye!
+Passed test #10
+
+***********************
+Starting Bonus Test #0: BONUS: A: Player wins with True Black Jack
+Let's Play BlackJack!
+The game starts with  a full deck and a empty hand for both the dealer and the player.Each hand is scored based on the following point values: Aces are treated as 1, 2 through 9 are treated as their representative numbers, Jack, King, and Queen will always have a value of 10, and Joker is not of value.
+
+ The player goes first, and then the Dealer
+ -The player can take as many cards as he/she wants, but if the player goes over 21 points, Dealer wins automatially
+ -If the Dealer's cards have a total value of 21, the Dealer wins
+ -If the Dealer's cards exceed 21, and the player's cards are <= 21, the player wins
+ -If the Dealer's and Player's score are both equal, the Dealer wins.
+
+Dealer's Hand: {  } 0 points
+Player's Hand: {  } 0 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { King of Spades(10),  } 10 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Diamonds(1), King of Spades(10),  } 11 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Player's turn: Enter (h) for 'hit'(take a card) or (s) for 'stand'(pass the turn to the dealer)
+Dealer's Hand: {  } 0 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Ace of Clubs(1),  } 1 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Spades(2), Ace of Clubs(1),  } 3 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Hearts(2), Two of Spades(2), Ace of Clubs(1),  } 5 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1),  } 7 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1),  } 9 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1),  } 12 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1),  } 15 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Dealer's turn...
+Dealer's Hand: { Three of Diamonds(3), Three of Hearts(3), Three of Spades(3), Two of Clubs(2), Two of Diamonds(2), Two of Hearts(2), Two of Spades(2), Ace of Clubs(1),  } 18 points
+Player's Hand: { Ace of Hearts(1), Ace of Diamonds(1), King of Spades(10),  } 12 points
+
+Congratulations: Dealer has won the game!
+Goodbye!
+Failed bonus test #0
